@@ -1,0 +1,104 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    text-align: center;
+}
+
+
+.carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}
+.top-header {
+    margin-top: 30px;
+}
+.chart {
+    margin-left: 30px;
+}
+.percentage {
+    position: absolute;
+    font-size: 4em;
+    top: 150px;
+    left: 180px;
+    font-weight: bold;
+}
+.title {
+    opacity: 0.8;
+    z-index: 10;
+    position: absolute;
+    left: 30px;
+    z-index: 10;
+}
+.title img {
+    width: 100%;
+}
+.timestamp {
+    color: white;
+    opacity: 0.8;
+    font-size: 2em;
+}
+.chart-container , .detail-info-container {
+    min-height: 280px;
+    max-height: 280px;
+    background: #fff;
+    padding: 15px;
+    opacity: 0.8;
+    margin-top: 30px;
+}
+
+.image-container {
+    margin: auto;   
+
+}
+
+.image-carousel {
+    text-align: center;
+
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+.server-summary-table {
+    
+
+}
+.title-box-name {
+    text-align: left;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.detail-info-in {
+    margin-bottom: 20px;
+}
+.list-container .slick-dots {
+    bottom: -75px !important;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.vm-list-table {
+    border-bottom: 1px;
+    border-color: black;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
